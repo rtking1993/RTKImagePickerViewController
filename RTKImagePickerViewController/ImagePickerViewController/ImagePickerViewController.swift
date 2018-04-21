@@ -148,6 +148,7 @@ extension ImagePickerViewController: PickerViewDelegate {
 extension ImagePickerViewController: ImageFilterViewControllerDelegate {
     func imageFilterViewController(_ imageFilterViewController: ImageFilterViewController, didSelectFilteredImage filteredImage: UIImage) {
         self.filteredImage = filteredImage
+        imageFilterViewController.dismiss(animated: true, completion: nil)
     }
     
     func imageFilterViewControllerDidCancel(_ imageFilterViewController: ImageFilterViewController) {

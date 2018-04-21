@@ -21,8 +21,8 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="309"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="AKe-7A-kpw">
-                    <rect key="frame" x="1" y="2" width="373" height="307"/>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="AKe-7A-kpw">
+                    <rect key="frame" x="0.0" y="1" width="375" height="308"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="O6K-mO-t0u">
                         <size key="itemSize" width="50" height="50"/>
@@ -39,9 +39,9 @@
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="AKe-7A-kpw" secondAttribute="bottom" id="Mx5-bL-VkG"/>
-                <constraint firstItem="AKe-7A-kpw" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="1" id="OZL-N4-FCs"/>
-                <constraint firstItem="AKe-7A-kpw" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="2" id="reF-ND-bBX"/>
-                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="AKe-7A-kpw" secondAttribute="trailing" constant="1" id="vlp-ah-lCK"/>
+                <constraint firstItem="AKe-7A-kpw" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="OZL-N4-FCs"/>
+                <constraint firstItem="AKe-7A-kpw" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="1" id="reF-ND-bBX"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="AKe-7A-kpw" secondAttribute="trailing" id="vlp-ah-lCK"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>

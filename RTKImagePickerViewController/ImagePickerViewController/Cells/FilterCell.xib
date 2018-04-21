@@ -21,14 +21,9 @@
                 <subviews>
                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="uhl-sa-tWM">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="375"/>
-                        <userDefinedRuntimeAttributes>
-                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                <integer key="value" value="6"/>
-                            </userDefinedRuntimeAttribute>
-                        </userDefinedRuntimeAttributes>
                     </imageView>
                     <view contentMode="scaleToFill" restorationIdentifier="GradientView" translatesAutoresizingMaskIntoConstraints="NO" id="zNo-nu-avi" customClass="GradientView" customModule="RTKImagePickerViewController" customModuleProvider="target">
-                        <rect key="frame" x="0.0" y="326" width="375" height="49"/>
+                        <rect key="frame" x="0.0" y="322" width="375" height="53"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="240" verticalHuggingPriority="240" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s6t-k8-hnE">
                                 <rect key="frame" x="0.0" y="24" width="375" height="25"/>
@@ -38,7 +33,7 @@
                             </label>
                         </subviews>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="s6t-k8-hnE" secondAttribute="bottom" id="IlV-gQ-Xj8"/>
+                            <constraint firstAttribute="bottom" secondItem="s6t-k8-hnE" secondAttribute="bottom" constant="4" id="IlV-gQ-Xj8"/>
                             <constraint firstItem="s6t-k8-hnE" firstAttribute="leading" secondItem="zNo-nu-avi" secondAttribute="leading" id="Uhr-Xe-dsR"/>
                             <constraint firstAttribute="trailing" secondItem="s6t-k8-hnE" secondAttribute="trailing" id="VMY-zF-obK"/>
                             <constraint firstItem="s6t-k8-hnE" firstAttribute="top" secondItem="zNo-nu-avi" secondAttribute="top" constant="24" id="vHa-ks-trz"/>
